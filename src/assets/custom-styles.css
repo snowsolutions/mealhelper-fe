@@ -1,0 +1,16 @@
+:root {
+    --app-background: #e35840;
+    --app-speical-text-color: #e35840;
+    --app-no-background: transparent;
+    --app-box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 20px, rgba(0, 0, 0, 0.08) 0px 15px 12px;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        background-color: var(--app-background);
+    }
+}
